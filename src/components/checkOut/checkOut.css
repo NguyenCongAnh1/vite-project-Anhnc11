@@ -1,0 +1,19 @@
+/* .checkout-info{
+    text-align: left;
+
+}
+.input-and-button{
+    display: flex;
+}
+
+.received{
+    margin-right: 10px;
+} */
+
+.leading-6{
+    line-height: 2rem;
+}
+
+.input-value{
+    width: 200px !important;
+}

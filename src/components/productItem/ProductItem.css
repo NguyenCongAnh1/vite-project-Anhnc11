@@ -1,0 +1,33 @@
+/* .products, .cart{
+    display: flex;
+}
+
+.products > div {
+   
+    margin: 1em;
+    padding: 2em;
+}
+
+.products > div img {
+    max-width: 175px;
+    height: auto;
+}
+
+
+
+.background{
+     background: #f5f5f5;
+} */
+
+.group{
+    text-align: left;
+}
+
+.sr-only{
+    text-align: left !important;
+    font: 1em sans-serif;
+}
+
+.add-to-cart{
+    color: black !important;
+}

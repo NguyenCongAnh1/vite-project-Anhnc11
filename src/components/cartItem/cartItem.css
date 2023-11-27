@@ -1,0 +1,16 @@
+/*
+.borderCartItem{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 20px;
+} */
+
+
+.cart > div {
+    display: flex;
+}
+
+.cart{
+    padding: 1rem !important;
+}
+

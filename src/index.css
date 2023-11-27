@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.color-btn{
+    color: black !important;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin: 5px 0;
+  }

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+</head>
+
+<body>
+  <nav class="bg-gray-800">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex flex-shrink-0 items-center">
+            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+              alt="Your Company">
+          </div>
+          <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
+              <a href="/"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Landing
+                Page</a>
+              <a href="/shop"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Products</a>
+              <a href="/CMS"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">CMS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative ml-3">
+          <div>
+            <a type="button" href="/login"
+              id="user-menu-button" aria-expanded="false" aria-haspopup="true"><img class="h-8 w-8 rounded-full"
+              src="https://th.bing.com/th/id/OIP.Crq9sn3Qu3HyHwPJi2zW8QHaHa?rs=1&pid=ImgDetMain" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="portal-container"></div>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script type="module" src="/src/components/dropdown/setting.tsx"></script>
+</body>
+
+</html>

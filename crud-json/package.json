@@ -1,0 +1,32 @@
+{
+  "name": "crud-json",
+  "version": "1.0.0",
+  "description": "Created by Nick",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "npx nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "crud",
+    "json"
+  ],
+  "author": "Nick",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
